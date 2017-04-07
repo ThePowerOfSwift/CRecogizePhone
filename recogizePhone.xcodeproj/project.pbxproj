@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C14A33C6FE3C6EAD0C4E38 /* Pods_recogizePhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA5A17B15E2EFE7C092F6D /* Pods_recogizePhone.framework */; };
+		FFFD283D1DF7EA9700A65E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD283C1DF7EA9700A65E55 /* main.m */; };
+		FFFD28401DF7EA9700A65E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD283F1DF7EA9700A65E55 /* AppDelegate.m */; };
+		FFFD28431DF7EA9700A65E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28421DF7EA9700A65E55 /* ViewController.m */; };
+		FFFD28461DF7EA9700A65E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFD28441DF7EA9700A65E55 /* Main.storyboard */; };
+		FFFD28481DF7EA9700A65E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFD28471DF7EA9700A65E55 /* Assets.xcassets */; };
+		FFFD284B1DF7EA9700A65E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFD28491DF7EA9700A65E55 /* LaunchScreen.storyboard */; };
+		FFFD28561DF7EA9700A65E55 /* recogizePhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28551DF7EA9700A65E55 /* recogizePhoneTests.m */; };
+		FFFD28611DF7EA9700A65E55 /* recogizePhoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28601DF7EA9700A65E55 /* recogizePhoneUITests.m */; };
+		FFFD28701DF7EB7D00A65E55 /* recogizeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFFD286F1DF7EB7D00A65E55 /* recogizeViewController.mm */; };
+		FFFD28771DF7EEC400A65E55 /* NSObject+PerformSelectorOnMainThreadMultipleArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28721DF7EEC400A65E55 /* NSObject+PerformSelectorOnMainThreadMultipleArgs.m */; };
+		FFFD28781DF7EEC400A65E55 /* OverView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28741DF7EEC400A65E55 /* OverView.m */; };
+		FFFD28791DF7EEC400A65E55 /* setManger.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28761DF7EEC400A65E55 /* setManger.m */; };
+		FFFD287F1DF7F08A00A65E55 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD287C1DF7F08A00A65E55 /* iToast.m */; };
+		FFFD28801DF7F08A00A65E55 /* KNToast.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD287E1DF7F08A00A65E55 /* KNToast.m */; };
+		FFFD28861DF7F0D600A65E55 /* GrayScale.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28831DF7F0D600A65E55 /* GrayScale.m */; };
+		FFFD28871DF7F0D600A65E55 /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFD28851DF7F0D600A65E55 /* ImageUtils.m */; };
+		FFFD28891DF80B0300A65E55 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = FFFD28881DF80B0300A65E55 /* tessdata */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFD28521DF7EA9700A65E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFD28301DF7EA9700A65E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFD28371DF7EA9700A65E55;
+			remoteInfo = recogizePhone;
+		};
+		FFFD285D1DF7EA9700A65E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFD28301DF7EA9700A65E55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFD28371DF7EA9700A65E55;
+			remoteInfo = recogizePhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297FFAAC80A0B26EF0E7AB1B /* Pods-recogizePhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recogizePhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-recogizePhone/Pods-recogizePhone.release.xcconfig"; sourceTree = "<group>"; };
+		A5BA5A17B15E2EFE7C092F6D /* Pods_recogizePhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_recogizePhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7E7443B63492FE14BDCE64 /* Pods-recogizePhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recogizePhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-recogizePhone/Pods-recogizePhone.debug.xcconfig"; sourceTree = "<group>"; };
+		FFFD28381DF7EA9700A65E55 /* recogizePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recogizePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFD283C1DF7EA9700A65E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFFD283E1DF7EA9700A65E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFFD283F1DF7EA9700A65E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFFD28411DF7EA9700A65E55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFFD28421DF7EA9700A65E55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFFD28451DF7EA9700A65E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFFD28471DF7EA9700A65E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFFD284A1DF7EA9700A65E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFFD284C1DF7EA9700A65E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFD28511DF7EA9700A65E55 /* recogizePhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recogizePhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFD28551DF7EA9700A65E55 /* recogizePhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recogizePhoneTests.m; sourceTree = "<group>"; };
+		FFFD28571DF7EA9700A65E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFD285C1DF7EA9700A65E55 /* recogizePhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recogizePhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFD28601DF7EA9700A65E55 /* recogizePhoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recogizePhoneUITests.m; sourceTree = "<group>"; };
+		FFFD28621DF7EA9700A65E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFD286E1DF7EB7D00A65E55 /* recogizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recogizeViewController.h; sourceTree = "<group>"; };
+		FFFD286F1DF7EB7D00A65E55 /* recogizeViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = recogizeViewController.mm; sourceTree = "<group>"; };
+		FFFD28711DF7EEC400A65E55 /* NSObject+PerformSelectorOnMainThreadMultipleArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformSelectorOnMainThreadMultipleArgs.h"; sourceTree = "<group>"; };
+		FFFD28721DF7EEC400A65E55 /* NSObject+PerformSelectorOnMainThreadMultipleArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformSelectorOnMainThreadMultipleArgs.m"; sourceTree = "<group>"; };
+		FFFD28731DF7EEC400A65E55 /* OverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverView.h; sourceTree = "<group>"; };
+		FFFD28741DF7EEC400A65E55 /* OverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverView.m; sourceTree = "<group>"; };
+		FFFD28751DF7EEC400A65E55 /* setManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setManger.h; sourceTree = "<group>"; };
+		FFFD28761DF7EEC400A65E55 /* setManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setManger.m; sourceTree = "<group>"; };
+		FFFD287B1DF7F08A00A65E55 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		FFFD287C1DF7F08A00A65E55 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		FFFD287D1DF7F08A00A65E55 /* KNToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNToast.h; sourceTree = "<group>"; };
+		FFFD287E1DF7F08A00A65E55 /* KNToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNToast.m; sourceTree = "<group>"; };
+		FFFD28821DF7F0D600A65E55 /* GrayScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayScale.h; sourceTree = "<group>"; };
+		FFFD28831DF7F0D600A65E55 /* GrayScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayScale.m; sourceTree = "<group>"; };
+		FFFD28841DF7F0D600A65E55 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		FFFD28851DF7F0D600A65E55 /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		FFFD28881DF80B0300A65E55 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFD28351DF7EA9700A65E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C14A33C6FE3C6EAD0C4E38 /* Pods_recogizePhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFD284E1DF7EA9700A65E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFD28591DF7EA9700A65E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CAB1702B6C316B370719298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BA5A17B15E2EFE7C092F6D /* Pods_recogizePhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B90FD4109D074D0DD08CE596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E7443B63492FE14BDCE64 /* Pods-recogizePhone.debug.xcconfig */,
+				297FFAAC80A0B26EF0E7AB1B /* Pods-recogizePhone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFFD282F1DF7EA9700A65E55 = {
+			isa = PBXGroup;
+			children = (
+				FFFD28811DF7F0D600A65E55 /* suport */,
+				FFFD287A1DF7F08A00A65E55 /* iToast */,
+				FFFD283A1DF7EA9700A65E55 /* recogizePhone */,
+				FFFD28541DF7EA9700A65E55 /* recogizePhoneTests */,
+				FFFD285F1DF7EA9700A65E55 /* recogizePhoneUITests */,
+				FFFD28391DF7EA9700A65E55 /* Products */,
+				B90FD4109D074D0DD08CE596 /* Pods */,
+				9CAB1702B6C316B370719298 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFD28391DF7EA9700A65E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD28381DF7EA9700A65E55 /* recogizePhone.app */,
+				FFFD28511DF7EA9700A65E55 /* recogizePhoneTests.xctest */,
+				FFFD285C1DF7EA9700A65E55 /* recogizePhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFD283A1DF7EA9700A65E55 /* recogizePhone */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD28881DF80B0300A65E55 /* tessdata */,
+				FFFD283E1DF7EA9700A65E55 /* AppDelegate.h */,
+				FFFD283F1DF7EA9700A65E55 /* AppDelegate.m */,
+				FFFD28411DF7EA9700A65E55 /* ViewController.h */,
+				FFFD28421DF7EA9700A65E55 /* ViewController.m */,
+				FFFD286E1DF7EB7D00A65E55 /* recogizeViewController.h */,
+				FFFD286F1DF7EB7D00A65E55 /* recogizeViewController.mm */,
+				FFFD28711DF7EEC400A65E55 /* NSObject+PerformSelectorOnMainThreadMultipleArgs.h */,
+				FFFD28721DF7EEC400A65E55 /* NSObject+PerformSelectorOnMainThreadMultipleArgs.m */,
+				FFFD28731DF7EEC400A65E55 /* OverView.h */,
+				FFFD28741DF7EEC400A65E55 /* OverView.m */,
+				FFFD28751DF7EEC400A65E55 /* setManger.h */,
+				FFFD28761DF7EEC400A65E55 /* setManger.m */,
+				FFFD28441DF7EA9700A65E55 /* Main.storyboard */,
+				FFFD28471DF7EA9700A65E55 /* Assets.xcassets */,
+				FFFD28491DF7EA9700A65E55 /* LaunchScreen.storyboard */,
+				FFFD284C1DF7EA9700A65E55 /* Info.plist */,
+				FFFD283B1DF7EA9700A65E55 /* Supporting Files */,
+			);
+			path = recogizePhone;
+			sourceTree = "<group>";
+		};
+		FFFD283B1DF7EA9700A65E55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD283C1DF7EA9700A65E55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFFD28541DF7EA9700A65E55 /* recogizePhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD28551DF7EA9700A65E55 /* recogizePhoneTests.m */,
+				FFFD28571DF7EA9700A65E55 /* Info.plist */,
+			);
+			path = recogizePhoneTests;
+			sourceTree = "<group>";
+		};
+		FFFD285F1DF7EA9700A65E55 /* recogizePhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD28601DF7EA9700A65E55 /* recogizePhoneUITests.m */,
+				FFFD28621DF7EA9700A65E55 /* Info.plist */,
+			);
+			path = recogizePhoneUITests;
+			sourceTree = "<group>";
+		};
+		FFFD287A1DF7F08A00A65E55 /* iToast */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD287B1DF7F08A00A65E55 /* iToast.h */,
+				FFFD287C1DF7F08A00A65E55 /* iToast.m */,
+				FFFD287D1DF7F08A00A65E55 /* KNToast.h */,
+				FFFD287E1DF7F08A00A65E55 /* KNToast.m */,
+			);
+			path = iToast;
+			sourceTree = "<group>";
+		};
+		FFFD28811DF7F0D600A65E55 /* suport */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD28821DF7F0D600A65E55 /* GrayScale.h */,
+				FFFD28831DF7F0D600A65E55 /* GrayScale.m */,
+				FFFD28841DF7F0D600A65E55 /* ImageUtils.h */,
+				FFFD28851DF7F0D600A65E55 /* ImageUtils.m */,
+			);
+			path = suport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFD28371DF7EA9700A65E55 /* recogizePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFD28651DF7EA9700A65E55 /* Build configuration list for PBXNativeTarget "recogizePhone" */;
+			buildPhases = (
+				81980AA92824FDE8A94DBF34 /* 📦 Check Pods Manifest.lock */,
+				FFFD28341DF7EA9700A65E55 /* Sources */,
+				FFFD28351DF7EA9700A65E55 /* Frameworks */,
+				FFFD28361DF7EA9700A65E55 /* Resources */,
+				3A4DB7366308882A884D6210 /* 📦 Embed Pods Frameworks */,
+				2A06C98B19CA4A2789F1B2E1 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = recogizePhone;
+			productName = recogizePhone;
+			productReference = FFFD28381DF7EA9700A65E55 /* recogizePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFFD28501DF7EA9700A65E55 /* recogizePhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFD28681DF7EA9700A65E55 /* Build configuration list for PBXNativeTarget "recogizePhoneTests" */;
+			buildPhases = (
+				FFFD284D1DF7EA9700A65E55 /* Sources */,
+				FFFD284E1DF7EA9700A65E55 /* Frameworks */,
+				FFFD284F1DF7EA9700A65E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFD28531DF7EA9700A65E55 /* PBXTargetDependency */,
+			);
+			name = recogizePhoneTests;
+			productName = recogizePhoneTests;
+			productReference = FFFD28511DF7EA9700A65E55 /* recogizePhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFFD285B1DF7EA9700A65E55 /* recogizePhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFD286B1DF7EA9700A65E55 /* Build configuration list for PBXNativeTarget "recogizePhoneUITests" */;
+			buildPhases = (
+				FFFD28581DF7EA9700A65E55 /* Sources */,
+				FFFD28591DF7EA9700A65E55 /* Frameworks */,
+				FFFD285A1DF7EA9700A65E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFD285E1DF7EA9700A65E55 /* PBXTargetDependency */,
+			);
+			name = recogizePhoneUITests;
+			productName = recogizePhoneUITests;
+			productReference = FFFD285C1DF7EA9700A65E55 /* recogizePhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFD28301DF7EA9700A65E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CYT;
+				TargetAttributes = {
+					FFFD28371DF7EA9700A65E55 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GA9ME5M65Y;
+						ProvisioningStyle = Automatic;
+					};
+					FFFD28501DF7EA9700A65E55 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XU4Z32BMCQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFFD28371DF7EA9700A65E55;
+					};
+					FFFD285B1DF7EA9700A65E55 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XU4Z32BMCQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFFD28371DF7EA9700A65E55;
+					};
+				};
+			};
+			buildConfigurationList = FFFD28331DF7EA9700A65E55 /* Build configuration list for PBXProject "recogizePhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFD282F1DF7EA9700A65E55;
+			productRefGroup = FFFD28391DF7EA9700A65E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFD28371DF7EA9700A65E55 /* recogizePhone */,
+				FFFD28501DF7EA9700A65E55 /* recogizePhoneTests */,
+				FFFD285B1DF7EA9700A65E55 /* recogizePhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFD28361DF7EA9700A65E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFD284B1DF7EA9700A65E55 /* LaunchScreen.storyboard in Resources */,
+				FFFD28891DF80B0300A65E55 /* tessdata in Resources */,
+				FFFD28481DF7EA9700A65E55 /* Assets.xcassets in Resources */,
+				FFFD28461DF7EA9700A65E55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFD284F1DF7EA9700A65E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFD285A1DF7EA9700A65E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A06C98B19CA4A2789F1B2E1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-recogizePhone/Pods-recogizePhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4DB7366308882A884D6210 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-recogizePhone/Pods-recogizePhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81980AA92824FDE8A94DBF34 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFD28341DF7EA9700A65E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFD28801DF7F08A00A65E55 /* KNToast.m in Sources */,
+				FFFD28771DF7EEC400A65E55 /* NSObject+PerformSelectorOnMainThreadMultipleArgs.m in Sources */,
+				FFFD28431DF7EA9700A65E55 /* ViewController.m in Sources */,
+				FFFD28861DF7F0D600A65E55 /* GrayScale.m in Sources */,
+				FFFD28781DF7EEC400A65E55 /* OverView.m in Sources */,
+				FFFD28871DF7F0D600A65E55 /* ImageUtils.m in Sources */,
+				FFFD28401DF7EA9700A65E55 /* AppDelegate.m in Sources */,
+				FFFD28791DF7EEC400A65E55 /* setManger.m in Sources */,
+				FFFD28701DF7EB7D00A65E55 /* recogizeViewController.mm in Sources */,
+				FFFD283D1DF7EA9700A65E55 /* main.m in Sources */,
+				FFFD287F1DF7F08A00A65E55 /* iToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFD284D1DF7EA9700A65E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFD28561DF7EA9700A65E55 /* recogizePhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFD28581DF7EA9700A65E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFD28611DF7EA9700A65E55 /* recogizePhoneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFD28531DF7EA9700A65E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFD28371DF7EA9700A65E55 /* recogizePhone */;
+			targetProxy = FFFD28521DF7EA9700A65E55 /* PBXContainerItemProxy */;
+		};
+		FFFD285E1DF7EA9700A65E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFD28371DF7EA9700A65E55 /* recogizePhone */;
+			targetProxy = FFFD285D1DF7EA9700A65E55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFFD28441DF7EA9700A65E55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFD28451DF7EA9700A65E55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFFD28491DF7EA9700A65E55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFD284A1DF7EA9700A65E55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFD28631DF7EA9700A65E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFFD28641DF7EA9700A65E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFD28661DF7EA9700A65E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7E7443B63492FE14BDCE64 /* Pods-recogizePhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA9ME5M65Y;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = recogizePhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChuYanKeJi.www.recogizePhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFFD28671DF7EA9700A65E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297FFAAC80A0B26EF0E7AB1B /* Pods-recogizePhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA9ME5M65Y;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = recogizePhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChuYanKeJi.www.recogizePhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFFD28691DF7EA9700A65E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XU4Z32BMCQ;
+				INFOPLIST_FILE = recogizePhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChuYanKeJi.www.recogizePhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recogizePhone.app/recogizePhone";
+			};
+			name = Debug;
+		};
+		FFFD286A1DF7EA9700A65E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XU4Z32BMCQ;
+				INFOPLIST_FILE = recogizePhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChuYanKeJi.www.recogizePhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recogizePhone.app/recogizePhone";
+			};
+			name = Release;
+		};
+		FFFD286C1DF7EA9700A65E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XU4Z32BMCQ;
+				INFOPLIST_FILE = recogizePhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChuYanKeJi.www.recogizePhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = recogizePhone;
+			};
+			name = Debug;
+		};
+		FFFD286D1DF7EA9700A65E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XU4Z32BMCQ;
+				INFOPLIST_FILE = recogizePhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChuYanKeJi.www.recogizePhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = recogizePhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFD28331DF7EA9700A65E55 /* Build configuration list for PBXProject "recogizePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFD28631DF7EA9700A65E55 /* Debug */,
+				FFFD28641DF7EA9700A65E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFD28651DF7EA9700A65E55 /* Build configuration list for PBXNativeTarget "recogizePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFD28661DF7EA9700A65E55 /* Debug */,
+				FFFD28671DF7EA9700A65E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFD28681DF7EA9700A65E55 /* Build configuration list for PBXNativeTarget "recogizePhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFD28691DF7EA9700A65E55 /* Debug */,
+				FFFD286A1DF7EA9700A65E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFD286B1DF7EA9700A65E55 /* Build configuration list for PBXNativeTarget "recogizePhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFD286C1DF7EA9700A65E55 /* Debug */,
+				FFFD286D1DF7EA9700A65E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFD28301DF7EA9700A65E55 /* Project object */;
+}

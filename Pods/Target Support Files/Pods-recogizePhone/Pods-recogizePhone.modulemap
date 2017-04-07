@@ -1,0 +1,6 @@
+framework module Pods_recogizePhone {
+  umbrella header "Pods-recogizePhone-umbrella.h"
+
+  export *
+  module * { export * }
+}
